@@ -52,9 +52,15 @@ public final class SearchUtil {
     }
 
     private static QueryBuilder getQueryBuilder(final String field, final String content) {
-        String regex = ".?" + content + ".?";
+        String regex = content;
+        // regex = regex.replace(" ", "*");
+        System.out.println("[content]"+regex+"[/content]");
 
-        return QueryBuilders.regexpQuery(field, regex);
+        // return QueryBuilders.regexpQuery(field, regex);
+        // return QueryBuilders.matchQuery(field, content);
+        // return QueryBuilders.matchPhrasePrefixQuery(field, content);
+        return QueryBuilders.multiMatchQuery(content);
+    
 
     }
 
