@@ -1,0 +1,3599 @@
+2021-11-04 16:45:13.886  INFO 29285 --- [restartedMain] f.s.I.IndexationCvsApplication           : Starting IndexationCvsApplication using Java 11.0.12 on MacBook-Pro-de-Sofiane.local with PID 29285 (/Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS/target/classes started by sofianebelkhir in /Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS)
+2021-11-04 16:45:13.887  INFO 29285 --- [restartedMain] f.s.I.IndexationCvsApplication           : No active profile set, falling back to default profiles: default
+2021-11-04 16:45:14.250  INFO 29285 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-04 16:45:14.261  INFO 29285 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-04 16:45:14.318  INFO 29285 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-04 16:45:14.330  INFO 29285 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-04 16:45:14.569  INFO 29285 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-04 16:45:14.574  INFO 29285 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 16:45:14.574  INFO 29285 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-04 16:45:14.595  INFO 29285 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-04 16:45:14.595  INFO 29285 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 682 ms
+2021-11-04 16:45:14.886  WARN 29285 --- [restartedMain] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:45:14.927  INFO 29285 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 16:45:15.017  INFO 29285 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-04 16:45:15.025  INFO 29285 --- [restartedMain] f.s.I.IndexationCvsApplication           : Started IndexationCvsApplication in 1.456 seconds (JVM running for 82.096)
+2021-11-04 16:45:15.043  INFO 29285 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-04 16:45:18.085  INFO 29285 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-04 16:45:18.088  INFO 29285 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-04 16:45:18.092  INFO 29285 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-04 16:45:18.226  WARN 29285 --- [http-nio-8080-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:45:18.236  INFO 29285 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 16:45:18.238  INFO 29285 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 16:45:18.238  INFO 29285 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 16:45:18.239  INFO 29285 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 16:45:25.170  WARN 29285 --- [http-nio-8080-exec-2] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:45:25.209  INFO 29285 --- [http-nio-8080-exec-2] f.s.I.IndexationCvsApplication           : 
+ cv found : Adam Benelghali 
+ 
+Alternant en Cybersécurité  
+Rythme d’alternance :  
+ 
+       3 jours entreprise/2 jours école  
+FORMATIONS  
+      2020-20222 : Master Networks & Security Manager en 
+alternance  
+Cours principaux : Management et ingénierie projet, conduite de 
+projet, sécurité informatique, menaces informatiques, business 
+intelligence, veille technologique, virtualisation et cloud,  
+• EFREI (école d'ingénieur) en partenariat avec le CFA Afia 
+    2019–2020 Master MEEF Physique-chimie   
+• Université d’Evry Val d’Essonne   
+     2016–2019 Licence de physique-Chimie  
+• Université d’Evry Val d’Essonne  
+      2015-2016 Classe préparatoire aux grandes écoles 
+(PCSI)  
+• Lycée Parc des Loges, EVRY  
+ 
+ EXPÉRIENCES PROFESSIONNELLES   
+     Apprenti Professeur de mathématiques (2 ans)     
+ Collège Jean-Zay Morsang sur Orge   
+• Coanimation et prise en charge de cours 
+• Préparation de cours, devoirs et interrogation  
+ 
+   COMPETENCES   
+     Informatiques  
+• Suite bureautique Microsoft Office 
+• Windows 10/Administration Linux 
+• Programmation (Processing, bases en Python)  
+      Personnelles  
+• Esprit critique et pratique  
+• Esprit d’analyse  
+• Cohésion d’équipe 
+ 
+  
+  
+  
+  
+  
+ 
+91700 Sainte Geneviève des 
+Bois 
+ 
+  
+    
+   
+ 
+  
+        
+ 
+  
+a dam - 9 @hotmail.fr  
+ 
+    
+LANGUES   
+Français ( Langue maternelle)  
+  
+Anglais (TOEIC 880) 2019  
+  
+      
+  
+    
+  
+  
+LOISIRS  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+         
+Permis B  
+06 52 74 73 08 
+Découverte  Voyages Aéronautique 
+ 
+(Intermédiaire) 
+(Professionnel) 
+Après avoir effectué une 
+année de master 
+enseignement, je souhaite 
+découvrir le monde de 
+l’entreprise dans le domaine 
+de l’IT. Ma formation initiale 
+scientifique m’a permis 
+d’acquérir un esprit 
+d’analyse et de synthèse  
+ainsi qu’une aisance dans le 
+maniement des chiffres. 
+ 
+ 
+administration réseaux, administration des serveurs
+
+2021-11-04 16:45:25.220  INFO 29285 --- [http-nio-8080-exec-2] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 16:45:25.223  INFO 29285 --- [http-nio-8080-exec-2] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 16:45:25.226  INFO 29285 --- [http-nio-8080-exec-2] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 16:48:58.074  WARN 29285 --- [http-nio-8080-exec-4] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:48:58.098  INFO 29285 --- [http-nio-8080-exec-4] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 16:48:58.099  INFO 29285 --- [http-nio-8080-exec-4] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 16:48:58.100  INFO 29285 --- [http-nio-8080-exec-4] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 16:48:58.101  INFO 29285 --- [http-nio-8080-exec-4] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 16:49:51.675  WARN 29285 --- [http-nio-8080-exec-6] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:49:51.695  INFO 29285 --- [http-nio-8080-exec-6] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 16:52:05.434  WARN 29285 --- [http-nio-8080-exec-8] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:52:10.189  WARN 29285 --- [http-nio-8080-exec-9] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:52:10.227  INFO 29285 --- [http-nio-8080-exec-9] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 16:52:10.228  INFO 29285 --- [http-nio-8080-exec-9] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 16:52:10.229  INFO 29285 --- [http-nio-8080-exec-9] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 16:52:10.232  INFO 29285 --- [http-nio-8080-exec-9] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 16:52:14.026  WARN 29285 --- [http-nio-8080-exec-10] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:52:14.034  INFO 29285 --- [http-nio-8080-exec-10] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 16:52:15.087  WARN 29285 --- [http-nio-8080-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:52:15.102  INFO 29285 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 16:54:46.694  WARN 29285 --- [http-nio-8080-exec-3] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:54:50.797  WARN 29285 --- [http-nio-8080-exec-4] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:54:56.160  WARN 29285 --- [http-nio-8080-exec-5] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 16:54:56.178  INFO 29285 --- [http-nio-8080-exec-5] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 17:00:17.727  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Starting IndexationCvsApplication using Java 11.0.12 on MacBook-Pro-de-Sofiane.local with PID 30218 (/Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS/target/classes started by sofianebelkhir in /Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS)
+2021-11-04 17:00:17.732  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : No active profile set, falling back to default profiles: default
+2021-11-04 17:00:17.973  INFO 30218 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-04 17:00:17.974  INFO 30218 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-04 17:00:18.895  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:00:18.963  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-04 17:00:19.246  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:00:19.282  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-04 17:00:20.036  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-04 17:00:20.113  INFO 30218 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 17:00:20.114  INFO 30218 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-04 17:00:20.247  INFO 30218 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-04 17:00:20.247  INFO 30218 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2267 ms
+2021-11-04 17:00:21.502  WARN 30218 --- [restartedMain] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:00:21.583  INFO 30218 --- [restartedMain] o.s.d.elasticsearch.support.VersionInfo  : Version Spring Data Elasticsearch: 4.2.5
+2021-11-04 17:00:21.584  INFO 30218 --- [restartedMain] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client in build: 7.12.1
+2021-11-04 17:00:21.584  INFO 30218 --- [restartedMain] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client used: 7.12.1
+2021-11-04 17:00:21.584  INFO 30218 --- [restartedMain] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch cluster: 7.15.1
+2021-11-04 17:00:21.584  WARN 30218 --- [restartedMain] o.s.d.elasticsearch.support.VersionInfo  : Version mismatch in between Elasticsearch Client and Cluster: 7.12.1 - 7.15.1
+2021-11-04 17:00:21.790  INFO 30218 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 17:00:22.103  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-04 17:00:22.148  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Started IndexationCvsApplication in 5.239 seconds (JVM running for 6.211)
+2021-11-04 17:02:15.449  INFO 30218 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-04 17:02:15.452  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-04 17:02:15.464  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-11-04 17:02:15.787  WARN 30218 --- [http-nio-8080-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:02:31.681  WARN 30218 --- [http-nio-8080-exec-2] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:02:35.930  WARN 30218 --- [http-nio-8080-exec-3] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:02:35.952  INFO 30218 --- [http-nio-8080-exec-3] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 17:02:35.979  INFO 30218 --- [http-nio-8080-exec-3] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 17:02:35.983  INFO 30218 --- [http-nio-8080-exec-3] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 17:02:35.988  INFO 30218 --- [http-nio-8080-exec-3] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 17:03:34.401  WARN 30218 --- [http-nio-8080-exec-5] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:03:34.423  INFO 30218 --- [http-nio-8080-exec-5] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 17:03:34.425  INFO 30218 --- [http-nio-8080-exec-5] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 17:03:34.426  INFO 30218 --- [http-nio-8080-exec-5] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 17:03:34.427  INFO 30218 --- [http-nio-8080-exec-5] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 17:03:39.988  WARN 30218 --- [http-nio-8080-exec-6] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:03:40.002  INFO 30218 --- [http-nio-8080-exec-6] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 17:16:33.827  WARN 30218 --- [http-nio-8080-exec-8] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:16:33.883  INFO 30218 --- [http-nio-8080-exec-8] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 17:16:33.889  INFO 30218 --- [http-nio-8080-exec-8] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 17:16:33.891  INFO 30218 --- [http-nio-8080-exec-8] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 17:16:33.893  INFO 30218 --- [http-nio-8080-exec-8] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 17:35:00.885  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Starting IndexationCvsApplication using Java 11.0.12 on MacBook-Pro-de-Sofiane.local with PID 30218 (/Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS/target/classes started by sofianebelkhir in /Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS)
+2021-11-04 17:35:00.891  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : No active profile set, falling back to default profiles: default
+2021-11-04 17:35:01.774  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:35:01.801  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-04 17:35:01.920  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:35:01.932  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-04 17:35:02.523  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-04 17:35:02.528  INFO 30218 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 17:35:02.528  INFO 30218 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-04 17:35:02.570  INFO 30218 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-04 17:35:02.570  INFO 30218 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1652 ms
+2021-11-04 17:35:02.949  WARN 30218 --- [restartedMain] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:35:03.015  INFO 30218 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 17:35:03.134  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-04 17:35:03.165  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Started IndexationCvsApplication in 2.737 seconds (JVM running for 2087.332)
+2021-11-04 17:35:03.198  INFO 30218 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-04 17:35:17.377  INFO 30218 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-04 17:35:17.387  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-04 17:35:17.394  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-11-04 17:35:17.540  WARN 30218 --- [http-nio-8080-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:35:17.576  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 17:35:17.578  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 17:35:17.579  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 17:35:17.580  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 17:36:49.732  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Starting IndexationCvsApplication using Java 11.0.12 on MacBook-Pro-de-Sofiane.local with PID 30218 (/Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS/target/classes started by sofianebelkhir in /Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS)
+2021-11-04 17:36:49.737  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : No active profile set, falling back to default profiles: default
+2021-11-04 17:36:50.318  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:36:50.350  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-04 17:36:50.451  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:36:50.472  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-04 17:36:50.723  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-04 17:36:50.732  INFO 30218 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 17:36:50.732  INFO 30218 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-04 17:36:50.778  INFO 30218 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-04 17:36:50.782  INFO 30218 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 986 ms
+2021-11-04 17:36:51.097  WARN 30218 --- [restartedMain] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:36:51.170  INFO 30218 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 17:36:51.365  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-04 17:36:51.379  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Started IndexationCvsApplication in 2.022 seconds (JVM running for 2195.528)
+2021-11-04 17:36:51.387  INFO 30218 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-04 17:37:13.690  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Starting IndexationCvsApplication using Java 11.0.12 on MacBook-Pro-de-Sofiane.local with PID 30218 (/Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS/target/classes started by sofianebelkhir in /Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS)
+2021-11-04 17:37:13.693  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : No active profile set, falling back to default profiles: default
+2021-11-04 17:37:14.088  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:37:14.130  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-04 17:37:14.230  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:37:14.243  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-04 17:37:14.431  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-04 17:37:14.434  INFO 30218 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 17:37:14.434  INFO 30218 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-04 17:37:14.462  INFO 30218 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-04 17:37:14.462  INFO 30218 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 733 ms
+2021-11-04 17:37:14.670  WARN 30218 --- [restartedMain] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:37:14.852  INFO 30218 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 17:37:14.982  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-04 17:37:15.000  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Started IndexationCvsApplication in 1.635 seconds (JVM running for 2219.149)
+2021-11-04 17:37:15.020  INFO 30218 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-04 17:37:25.765  INFO 30218 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-04 17:37:25.777  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-04 17:37:25.788  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-11-04 17:37:25.923  WARN 30218 --- [http-nio-8080-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:37:25.958  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                             
+ 
+ 
+ 
+Formations 
+2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA. 
+2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le 
+groupe français ESAIP. 
+2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA. 
+2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à 
+L’I.S.T.A route Imouzer Fès. 
+ Expériences professionnelles  
+Depuis Septembre 2011    « LOCKE-ENGINEERING » 
+à Tanger 
+Ingénieur Recherche et Développement. 
+ Conception et réalisation des applications Web. 
+ Suivie technique après-vente. 
+ La mise à jour de la documentation. 
+Février à Août 2011          « LOCKE-ENGINEERING » 
+à Tanger 
+Stage Fin de Formation Ingénieur en Architecture 
+logicielle. 
+ Mise au point d'un générateur de système expert en 
+Symfony2. 
+ Présentation du projet au sein de la société mère en France. 
+Août à Octobre 2010       « CORPORATE Software » 
+à Casablanca 
+Stage Fin de Formation Chef de Projet. 
+ Participation au Projet de facturation en ligne pour la 
+société Maroc Telecom en J2EE(EGB , Struts , Spring).  
+Depuis Mai 2009                 « Fès création S.A.R.L »         
+à Fès 
+Responsable des relations clients /Développeur. 
+ Installation du réseau informatique, création des sites web, 
+création des applications de gestion, installation des écrans 
+d’affichage avec un système centralisé. 
+De Mai à Octobre 2008         VOICE CALL CENTER » 
+à Fès 
+Téléacteur. 
+ Prise de rendez-vous. 
+ Vente et publicité des produits vendus en France pour les 
+sociétés : Inter-Façade, Eye-Tech, Tryba ... 
+De Juillet à Octobre 2006       « MAYAM.TEC »     
+à Fès 
+Technicien spécialisé. 
+ Responsable de la maintenance et service après vente 
+Compétences en informatique 
+Méthode d'Analyse et de Conception:  UML 2.0. 
+Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring, 
+Struts. 
+Programmation:  Java, C, EJB 3.1, RMI, Hibernate. 
+Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/ 
+SAMBA/ Messagerie/ NFS/ SNMP…... 
+Bases de données:  Oracle (9i, 10g), PL SQL, MySQL. 
+Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express … 
+Langues 
+ Français : Bon niveau. 
+ Arabe : Langue maternelle. 
+ Anglais : Moyen. 
+Divers 
+Centres d'intérêts 
+Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique. 
+Permis de conduire (B) 
+MAZOUZ MAROUANE 
+13 A bloc 24 ERAC Sidi Brahim Fès 
+27 ans, célibataire 
+GSM     : 0665461188 
+Email : mazouz.mar@gmail.com                                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ingénieur en 
+Architecture Logicielle 
+
+2021-11-04 17:37:25.960  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de 
+master de Data Science à 
+Sorbonne Université, je suis à la 
+recherche d’un stage de fin 
+d'étude lié au domaine de la 
+Data Science pour une durée 
+de 4 à 6 mois.
+À PROPOS DE MOI
+23 Rue Adelaïde Lahaye
+93170 Bagnolet
+
+07.69.43.93.98
+zhuang.pascal@gmail.com
+Permis B
+linkedin.com/in/pascal-zhuang
+github.com/ZhuangPascal
+kaggle.com/pascalzg
+DONNÉES PERSONNELLES
+Python : 
+NumPy, Pandas, Matplotlib, 
+Seaborn, Scikit-learn, Plotly, 
+TensorFlow, PyTorch, ...
+Base de données :
+SQL3, XML, XQuery, RDF, 
+SPARQL, Scala,  Spark SQL
+Langues :
+Français : Langue maternelle•
+Chinois : Langue maternelle•
+Anglais : B1•
+COMPÉTENCES
+Data Science
+Sports
+Tennis de Table
+Course à pied
+Taï-Chi
+
+CENTRES D'INTÉRÊT
+PASCAL ZHUANG
+Master Data Science 
+Sciences Sorbonne Université, Paris | 2020 - Présent
+Machine Learning•
+Business intelligence and user modelling (Talend, Power BI, Dataiku)•
+Information retrieval and information access (NLP)•
+Bases de Données Large Echelle•
+Modélisation, optimisation, graphes, programmation linéaire•
+Licence Informatique, mention Bien
+Sciences Sorbonne Université, Paris | 2017 - 2020
+Statistiques•
+Systèmes de Gestion de Bases de Données•
+Eléments de programmation par objets avec Java•
+Programmation et structures de données en C•
+Structure des architectures Client-Serveur (HTML, CSS, PHP)•
+FORMATIONS
+Conseiller Clientèle (Stage)
+Magasin d’électronique  | 2013
+Apporter une solution aux demandes des clients
+EXPÉRIENCE
+BUSINESS INTELLIGENCE
+Dataiku DSS
+Base de données multidimensionnelle
+ETL - Data visualisation - Machine Learning - Dashboards
+2021
+TRAITEMENT AUTOMATIQUE DE LA LANGUE
+Natural Language Processing 
+Détection de sentiments - Extraction des thématiques 
+Deep Learning
+2021
+PRÉDICTION DE TRAJECTOIRES GPS
+Recherche bibliographique - Data visualisation 
+Machine Learning
+2021
+MOTEUR DE RECHERCHE
+Indexation - Modèles d’ordonnancement -  Evaluation  
+PageRank
+2021
+MACHINE LEARNING
+Implémentation de zéro d'un réseau de neurones
+2021
+PROJETS
+
+2021-11-04 17:37:25.961  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE
+Massyl
+Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois 
+pour un rythme de 2 mois entreprise / 1 mois cours
+Coordonnées
+massyl.d@live.fr
+12 Rue Claude Monet, 91600 
+Savigny-sur-Orge
+06 51 08 33 00
+Langues
+Anglais
+Allemand
+Niveau B2
+Niveau B1
+DIPLÔMES ET FORMATIONS
+2020
+ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris
+12 rue de Cléry, 75002
+(formation préparatoire à l'entrée sélective au Master Informatique en STL
+à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS, 
+MEAN stack,Backend algorithmique, Culture DevOps.
+De 2016 à
+ 2020
+Licence Informatique / Université Pierre et Marie Curie Paris 06
+Jussieu, France
+Connaissance acquise: programmation par objets, programmation
+fonctionnelle, algorithmique, scripting, ETL sur base de données SQL
+et distribuées. 
+2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France 
+COMPÉTENCES
+Fronted : HTML/CSS/Javascript, jQuery
+Backend data : Mongodb, SQL, Oracle
+Backend logique : python panda, PHP laravel, node.js Express
+Scripting : shell, bash
+Outils de développements : Eclipse, Atom, Sublime Text, Emacs
+Outils collaboratifs et CI/CD : Git
+Autres Langages : C/C++, python, java, PHP, XHTML, XML
+• UML
+• Android Studio
+• React
+• Ajax
+• TOMCAT
+• Notion de Concurrence
+• Active directory
+• Syslog-ng
+• Virtualbox
+• JAVA
+• C,C++
+• PYTHON
+• Assembleur
+• SHELL
+• PHP
+• HTML
+• CSS
+• SQL/NoSQL
+Outils et langages PROJETS PERSONNELS
+Simulation
+• Proies/prédateurs cycle de vie et Écosystème 
+• Feu de forêt, automate cellulaire 
+•  Interactions entre les planètes
+     -Notion d’auto-réplication
+     -Systèmes dynamiques discrets
+     -Modélisation de systèmes complexes
+Projet Twister
+Création d’un site web type réseau social /Clone de Twitter
+• Backend : Java et Json
+• Backend data : Mongodb et SQL
+• Fronted : HTML CSS et REACT
+• Structure : API REST
+Personnalité
+Etant, par nature, une personne rigoureuse, 
+motivée, disciplinée, pérsévérante et ayant un 
+sens aigu de l'organisation et une bonne 
+capacité d'adaptation, je suis, de ce fait apte à 
+travailler aussi bien individuellement que
+collectivement au sein d'une équipe et prêt à 
+relever n'importe quel challenge.
+Réseaux
+• Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP),
+randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), …
+• Conception de bout en bout, structuration en couches, multiplexage, états mous, …
+• Conception d’un système distribué connecté très large échelle
+ -Spécification et placement des fonctions nécessaires
+ -Types de noeuds, informations échangées et états installés
+ -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, …
+Centres d'intérêt
+Modelisation 3D
+Dessin
+Intelligence artificielle
+
+2021-11-04 17:37:25.962  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques :
+Java, JavaFX, Python, C#, C++, UML,
+PHP, SQL, MySQL, SASS, VBA,
+MySQL, Linux, Shell,  PowerBI,
+Excel, Matplotlib, SPARQL,
+Hadoop, Scala, MongoDB, Julia, R,
+Angular
+Langues :
+Anglais : C1        Arabe : maternel
+Espagnol : B1    Japonais : A2
+AMINE KHEDDAR
+C U R R I C U L U M  V I T A E
+A L T E R N A N C E  D A T A  S C I E N C E
+P R O F I L
+P E R S O N N E L
+Titulaire d'un diplôme de Licence
+informatique à Sorbonne Université avec
+mention assez bien, je souhaite m'orienter
+dans la Data science 
+75 Rue de la libre pensée
+Romainville
+amine.kheddar@outlook.fr
+06 52 83 24 60
+C O O R D O N N É E S
+C O M P É T E N C E S
+2017-2020   Sorbonne Université Campus Pierre et
+Marie Curie
+ Licence informatique et mathématique
+Statistique, Data science, Base de données, Algorithmes
+E X P É R I E N C E  P R O F E S S I O N N E L L E
+F O R M A T I O N
+Carrefour - Porte de Montreuil
+Employé de rayon (épicerie) et assistant de caisse.
+P R O J E T S
+JUIN 2019 - AOUT 2019
+2020-2021   CFA Insta - Sorbonne Université
+Master Science et Technologie du Logiciel en Alternance
+Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et
+Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de
+Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel,
+Introduction à la Simulation Numérique, Introduction à la Data Science
+Projet Data Science Applied
+to Movie :
+Web scraping, Data vizulisation,
+Programme de recommandation,
+Data Frame, Matplotlib, Numpy,,
+Data Viz (Python)
+Projet Jeu vidéo Rétro :
+Création libre d'un jeu vidéo en
+Java avec la librairie JavaFX.
+Enveloppe  convexe (Graham,
+Jarvis, QuickHull) , Algorithmes
+calcul du Cercle minimum et
+optimisation (Welzl, Chrystal).
+Projet Web :
+Création d'un site Web de vente .
+Front-End: Angular (HTML, CSS, JS)
+Back-End: Python-Django, SQLite 
+Safran Electronics & Defense - Massy
+NOVEMBRE 2020 - SEPTEMBRE 2021
+Responsable de l'outil HP ALM pour la gestion du cycle de vie des
+applications pour l'assurance qualité des logiciels et la gestion des
+tests
+ETL - Extract-transform-load
+Extraction par requêtes SQL sur la base de données de l'outil en
+fichier CSV ou Excel
+Traitement Excel, python, VBA - Visualisation des données avec
+PowerBI (DataViz)
+Support et formation d'utilisateurs pour un projet logiciel de Safran
+Avionics USA (Communication orale et ecris en Anglais)
+Test Manager - Data Analysis
+Modèles et Langages Bases de Données Avancées (SQL3, RDF,
+SPARQL, XQuery, XPath, XShema). Comparer différents modèles et
+langages la modélisation et l’interrogation de données complexes
+dans les applications modernes comme les réseaux sociaux,
+réseaux de capteurs, l’open data et le machine learning.
+Modèles, Algorithmes Probabilistes et Statistiques pour la Data
+science ( Expectation-Maximization, Chaine de Markov,
+Echantillonnage et MCMC, Regressions)
+Machine Learning ( Classification bayésienne, estimation de
+densité, modèles linéaire, descente de gradient, Perceptron).
+Algorithme avancée ( Files de priorités, Recherche arborescente et
+méthodes de hachage)
+
+2021-11-04 17:40:19.582  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Starting IndexationCvsApplication using Java 11.0.12 on MacBook-Pro-de-Sofiane.local with PID 30218 (/Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS/target/classes started by sofianebelkhir in /Users/sofianebelkhir/Documents/Daar/IndexationCVS/BackEnd_IndexationCVS)
+2021-11-04 17:40:19.600  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : No active profile set, falling back to default profiles: default
+2021-11-04 17:40:20.010  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:40:20.032  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-04 17:40:20.114  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-04 17:40:20.124  INFO 30218 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-04 17:40:20.394  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-04 17:40:20.397  INFO 30218 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 17:40:20.398  INFO 30218 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-04 17:40:20.444  INFO 30218 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-04 17:40:20.445  INFO 30218 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2021-11-04 17:40:20.789  WARN 30218 --- [restartedMain] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:40:20.823  INFO 30218 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 17:40:20.889  INFO 30218 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-04 17:40:20.892  INFO 30218 --- [restartedMain] f.s.I.IndexationCvsApplication           : Started IndexationCvsApplication in 1.748 seconds (JVM running for 2405.048)
+2021-11-04 17:40:20.896  INFO 30218 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-04 17:40:33.511  INFO 30218 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-04 17:40:33.522  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-04 17:40:33.530  INFO 30218 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-11-04 17:40:33.641  WARN 30218 --- [http-nio-8080-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/candidat/_search?typed_keys=true&max_concurrent_shard_requests=5&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-04 17:40:33.665  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found :                                                                    Formations  2008 -2011  Diplôme d'ingénieur en Architecture logicielle à TECHNOLOGIA.  2008 - 2010  Diplôme de chef de projet informatique et Réseaux à TECHNOLOGIA par convention avec le  groupe français ESAIP.  2006-2008  Classe préparatoire MATH spé à TECHNOLOGIA.  2004 - 2006  Diplôme de Technicien Spécialisé en Micro-ordinateur et Télécommunication d’Entreprises à  L’I.S.T.A route Imouzer Fès.   Expériences professionnelles   Depuis Septembre 2011    « LOCKE-ENGINEERING »  à Tanger  Ingénieur Recherche et Développement.   Conception et réalisation des applications Web.   Suivie technique après-vente.   La mise à jour de la documentation.  Février à Août 2011          « LOCKE-ENGINEERING »  à Tanger  Stage Fin de Formation Ingénieur en Architecture  logicielle.   Mise au point d'un générateur de système expert en  Symfony2.   Présentation du projet au sein de la société mère en France.  Août à Octobre 2010       « CORPORATE Software »  à Casablanca  Stage Fin de Formation Chef de Projet.   Participation au Projet de facturation en ligne pour la  société Maroc Telecom en J2EE(EGB , Struts , Spring).   Depuis Mai 2009                 « Fès création S.A.R.L »          à Fès  Responsable des relations clients /Développeur.   Installation du réseau informatique, création des sites web,  création des applications de gestion, installation des écrans  d’affichage avec un système centralisé.  De Mai à Octobre 2008         VOICE CALL CENTER »  à Fès  Téléacteur.   Prise de rendez-vous.   Vente et publicité des produits vendus en France pour les  sociétés : Inter-Façade, Eye-Tech, Tryba ...  De Juillet à Octobre 2006       « MAYAM.TEC »      à Fès  Technicien spécialisé.   Responsable de la maintenance et service après vente  Compétences en informatique  Méthode d'Analyse et de Conception:  UML 2.0.  Technologies web:  Symfony, PHP, jQuery, JavaScript, Ajax, CSS, J2EE, Web services, Spring,  Struts.  Programmation:  Java, C, EJB 3.1, RMI, Hibernate.  Réseaux:  Administration & Installation Services Réseaux: Apache/DNS/DHCP/  SAMBA/ Messagerie/ NFS/ SNMP…...  Bases de données:  Oracle (9i, 10g), PL SQL, MySQL.  Outils & Serveurs d’application:  Rational Rose, Dreamweaver, photoshop, Ulead Photo Express …  Langues   Français : Bon niveau.   Arabe : Langue maternelle.   Anglais : Moyen.  Divers  Centres d'intérêts  Jeux vidéo, Natation, basketball, logiciels libres, photographie numérique, musique.  Permis de conduire (B)  MAZOUZ MAROUANE  13 A bloc 24 ERAC Sidi Brahim Fès  27 ans, célibataire  GSM     : 0665461188  Email : mazouz.mar@gmail.com                                                    Ingénieur en  Architecture Logicielle  
+2021-11-04 17:40:33.673  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Étudiant en 2ème année de  master de Data Science à  Sorbonne Université, je suis à la  recherche d’un stage de fin  d'étude lié au domaine de la  Data Science pour une durée  de 4 à 6 mois. À PROPOS DE MOI 23 Rue Adelaïde Lahaye 93170 Bagnolet  07.69.43.93.98 zhuang.pascal@gmail.com Permis B linkedin.com/in/pascal-zhuang github.com/ZhuangPascal kaggle.com/pascalzg DONNÉES PERSONNELLES Python :  NumPy, Pandas, Matplotlib,  Seaborn, Scikit-learn, Plotly,  TensorFlow, PyTorch, ... Base de données : SQL3, XML, XQuery, RDF,  SPARQL, Scala,  Spark SQL Langues : Français : Langue maternelle• Chinois : Langue maternelle• Anglais : B1• COMPÉTENCES Data Science Sports Tennis de Table Course à pied Taï-Chi  CENTRES D'INTÉRÊT PASCAL ZHUANG Master Data Science  Sciences Sorbonne Université, Paris | 2020 - Présent Machine Learning• Business intelligence and user modelling (Talend, Power BI, Dataiku)• Information retrieval and information access (NLP)• Bases de Données Large Echelle• Modélisation, optimisation, graphes, programmation linéaire• Licence Informatique, mention Bien Sciences Sorbonne Université, Paris | 2017 - 2020 Statistiques• Systèmes de Gestion de Bases de Données• Eléments de programmation par objets avec Java• Programmation et structures de données en C• Structure des architectures Client-Serveur (HTML, CSS, PHP)• FORMATIONS Conseiller Clientèle (Stage) Magasin d’électronique  | 2013 Apporter une solution aux demandes des clients EXPÉRIENCE BUSINESS INTELLIGENCE Dataiku DSS Base de données multidimensionnelle ETL - Data visualisation - Machine Learning - Dashboards 2021 TRAITEMENT AUTOMATIQUE DE LA LANGUE Natural Language Processing  Détection de sentiments - Extraction des thématiques  Deep Learning 2021 PRÉDICTION DE TRAJECTOIRES GPS Recherche bibliographique - Data visualisation  Machine Learning 2021 MOTEUR DE RECHERCHE Indexation - Modèles d’ordonnancement -  Evaluation   PageRank 2021 MACHINE LEARNING Implémentation de zéro d'un réseau de neurones 2021 PROJETS 
+2021-11-04 17:40:33.678  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : DERDICHE Massyl Étudiant en Informatique, je suis à la recherche d'une alternance de 12 mois  pour un rythme de 2 mois entreprise / 1 mois cours Coordonnées massyl.d@live.fr 12 Rue Claude Monet, 91600  Savigny-sur-Orge 06 51 08 33 00 Langues Anglais Allemand Niveau B2 Niveau B1 DIPLÔMES ET FORMATIONS 2020 ÉCOLE SUPÉRIEURE D'INFORMATIQUE / CFA INSTA Paris 12 rue de Cléry, 75002 (formation préparatoire à l'entrée sélective au Master Informatique en STL à Sorbonne Université, 75005 Paris) Connaissance visée: Programmation SaaS,  MEAN stack,Backend algorithmique, Culture DevOps. De 2016 à  2020 Licence Informatique / Université Pierre et Marie Curie Paris 06 Jussieu, France Connaissance acquise: programmation par objets, programmation fonctionnelle, algorithmique, scripting, ETL sur base de données SQL et distribuées.  2015 Baccalauréat Scientifique / Lycée Gaspard MongeSavigny-sur-Orge, France  COMPÉTENCES Fronted : HTML/CSS/Javascript, jQuery Backend data : Mongodb, SQL, Oracle Backend logique : python panda, PHP laravel, node.js Express Scripting : shell, bash Outils de développements : Eclipse, Atom, Sublime Text, Emacs Outils collaboratifs et CI/CD : Git Autres Langages : C/C++, python, java, PHP, XHTML, XML • UML • Android Studio • React • Ajax • TOMCAT • Notion de Concurrence • Active directory • Syslog-ng • Virtualbox • JAVA • C,C++ • PYTHON • Assembleur • SHELL • PHP • HTML • CSS • SQL/NoSQL Outils et langages PROJETS PERSONNELS Simulation • Proies/prédateurs cycle de vie et Écosystème  • Feu de forêt, automate cellulaire  •  Interactions entre les planètes      -Notion d’auto-réplication      -Systèmes dynamiques discrets      -Modélisation de systèmes complexes Projet Twister Création d’un site web type réseau social /Clone de Twitter • Backend : Java et Json • Backend data : Mongodb et SQL • Fronted : HTML CSS et REACT • Structure : API REST Personnalité Etant, par nature, une personne rigoureuse,  motivée, disciplinée, pérsévérante et ayant un  sens aigu de l'organisation et une bonne  capacité d'adaptation, je suis, de ce fait apte à  travailler aussi bien individuellement que collectivement au sein d'une équipe et prêt à  relever n'importe quel challenge. Réseaux • Hiérarchisation (IP, DNS), indirection (nommage et DNS), caching(HTTP, DNS, ARP), randomisation (Ethernet, TCP), pipelining (HTTP),fenêtre glissante (HDLC, TCP), … • Conception de bout en bout, structuration en couches, multiplexage, états mous, … • Conception d’un système distribué connecté très large échelle  -Spécification et placement des fonctions nécessaires  -Types de noeuds, informations échangées et états installés  -Performances, efficacité, passage à l’échelle, manageabilité, sécurité, … Centres d'intérêt Modelisation 3D Dessin Intelligence artificielle 
+2021-11-04 17:40:33.684  INFO 30218 --- [http-nio-8080-exec-1] f.s.I.IndexationCvsApplication           : 
+ cv found : Compétences Informatiques : Java, JavaFX, Python, C#, C++, UML, PHP, SQL, MySQL, SASS, VBA, MySQL, Linux, Shell,  PowerBI, Excel, Matplotlib, SPARQL, Hadoop, Scala, MongoDB, Julia, R, Angular Langues : Anglais : C1        Arabe : maternel Espagnol : B1    Japonais : A2 AMINE KHEDDAR C U R R I C U L U M  V I T A E A L T E R N A N C E  D A T A  S C I E N C E P R O F I L P E R S O N N E L Titulaire d'un diplôme de Licence informatique à Sorbonne Université avec mention assez bien, je souhaite m'orienter dans la Data science  75 Rue de la libre pensée Romainville amine.kheddar@outlook.fr 06 52 83 24 60 C O O R D O N N É E S C O M P É T E N C E S 2017-2020   Sorbonne Université Campus Pierre et Marie Curie  Licence informatique et mathématique Statistique, Data science, Base de données, Algorithmes E X P É R I E N C E  P R O F E S S I O N N E L L E F O R M A T I O N Carrefour - Porte de Montreuil Employé de rayon (épicerie) et assistant de caisse. P R O J E T S JUIN 2019 - AOUT 2019 2020-2021   CFA Insta - Sorbonne Université Master Science et Technologie du Logiciel en Alternance Conception et Pratique de l'Algorithmique, Recherche Opérationnelle et Programmation Linéaire, Algorithmique Avancée, Développement d'un Langage de Programmation, Programmation Avancée et Fonctionnelle, Composant Logiciel, Introduction à la Simulation Numérique, Introduction à la Data Science Projet Data Science Applied to Movie : Web scraping, Data vizulisation, Programme de recommandation, Data Frame, Matplotlib, Numpy,, Data Viz (Python) Projet Jeu vidéo Rétro : Création libre d'un jeu vidéo en Java avec la librairie JavaFX. Enveloppe  convexe (Graham, Jarvis, QuickHull) , Algorithmes calcul du Cercle minimum et optimisation (Welzl, Chrystal). Projet Web : Création d'un site Web de vente . Front-End: Angular (HTML, CSS, JS) Back-End: Python-Django, SQLite  Safran Electronics & Defense - Massy NOVEMBRE 2020 - SEPTEMBRE 2021 Responsable de l'outil HP ALM pour la gestion du cycle de vie des applications pour l'assurance qualité des logiciels et la gestion des tests ETL - Extract-transform-load Extraction par requêtes SQL sur la base de données de l'outil en fichier CSV ou Excel Traitement Excel, python, VBA - Visualisation des données avec PowerBI (DataViz) Support et formation d'utilisateurs pour un projet logiciel de Safran Avionics USA (Communication orale et ecris en Anglais) Test Manager - Data Analysis Modèles et Langages Bases de Données Avancées (SQL3, RDF, SPARQL, XQuery, XPath, XShema). Comparer différents modèles et langages la modélisation et l’interrogation de données complexes dans les applications modernes comme les réseaux sociaux, réseaux de capteurs, l’open data et le machine learning. Modèles, Algorithmes Probabilistes et Statistiques pour la Data science ( Expectation-Maximization, Chaine de Markov, Echantillonnage et MCMC, Regressions) Machine Learning ( Classification bayésienne, estimation de densité, modèles linéaire, descente de gradient, Perceptron). Algorithme avancée ( Files de priorités, Recherche arborescente et méthodes de hachage) 
